@@ -14,15 +14,29 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.readmeTitle}
 
+  ## Description
 ${data.description}
 
 
-## Table of Contents
+## Table of Content
 
+## Installation
+${data.installationInstructions}
 
 ## Usage
-
 ${data.usageInfo}
+## License
+${data.license}
+## Contributing 
+${data.contribution}
+## Tests
+${data.testInstructions}
+## Questions 
+Any questions or comments, my email is below. Also feel reach to checkout my Github.
+
+${data.username},
+ ${data.email}
+
 `;
 }
 

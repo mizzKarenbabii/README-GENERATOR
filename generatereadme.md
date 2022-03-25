@@ -1,11 +1,25 @@
-# jgjkh
+# k poppers
 
-dfd
+  ## Description
+a website to search for k pop idols
 
 
-## Table of Contents
+## Table of Content
 
+## Installation
+click install
 
 ## Usage
+thers's none
+## License
+BSD
+## Contributing 
+just me
+## Tests
+undefined
+## Questions 
+Any questions or comments, my email is below. Also feel reach to checkout my Github.
 
-df
+mizzk,
+ mizzk@gmail.com
+

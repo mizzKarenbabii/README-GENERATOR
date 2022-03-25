@@ -27,13 +27,20 @@ const questions = [
     {
         type: 'input',
         name: 'usageInfo',
-        message: 'What is the usage info'
+        message: 'What is the usage info?'
     
+    },
+
+    {
+        type: 'rawlist',
+        name: 'license',
+        message: 'which license?',
+        choices: ['BSD', 'MIT', 'GPL'],
     },
     {
         type: 'input',
-        name:'contributionGuidelines',
-        message: "What are the contribution guideline?"
+        name:'contribution',
+        message: "Who are the contributors?"
     },
 
     {
@@ -41,13 +48,30 @@ const questions = [
         name:'testIntructions',
         message: 'What are the test intructions?'
     },
+
+    {
+        type: 'input',
+        name: 'username',
+        message: 'What is your github username?'
+    },
+
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email?'
+    },
+    
+    {
+        type: 'input',
+        name: 'link',
+        message: 'Enter Github profile link.',
+       
+  
+    },
   
   
 ];
-// inquirer.prompt(questions).then((answers) => {
-//     console.log('\nOrder receipt:');
-//     console.log(JSON.stringify(answers, null, '  '));
-// // TODO: Create a function to write README file
+
 function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
